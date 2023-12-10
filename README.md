@@ -8,7 +8,8 @@ https://www.php.net/manual/ru/install.macosx.packages.php
 https://www.apachefriends.org/ru/index.html
 
 Для того, чтобы загрузить этот шаблон, можно склонировать репозиторий через git, а если вы этого не умеете, то можно просто скачать архив
-![download_image.png](readme-images/download_image.png)
+<img width="596" alt="Снимок экрана 2023-12-10 в 22 46 46" src="https://github.com/admarkov/it-diving-template/assets/11661233/6afe0534-8bee-4ac1-8f6c-c4b071247e7c">
+
 
 Можно воспользоваться любой средой разработки. Я предпочитаю PHPStorm, но подойдет даже простой текстовый редактор.
 
