@@ -1,0 +1,21 @@
+{
+  "name": "vkcom/vk-php-sdk",
+  "description": "VK PHP SDK",
+  "keywords": [
+    "vk",
+    "sdk"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/VKCOM/vk-php-sdk",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "VK\\": "src/VK"
+    }
+  },
+  "minimum-stability": "dev"
+}

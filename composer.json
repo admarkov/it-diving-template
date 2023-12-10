@@ -1,0 +1,11 @@
+{
+    "require": {
+        "vkcom/vk-php-sdk": "^5.131"
+    },
+    "autoload": {
+        "psr-4": {
+            "SubStalker\\": "SubStalker",
+            "Generator\\Skeleton\\skeleton\\base\\src\\VK\\": "vendor/vkcom/vk-php-sdk/src/VK"
+        }
+    }
+}
