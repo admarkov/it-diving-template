@@ -48,4 +48,13 @@ php index.php
 Остается лишь реализовать обработку колбэков. Соотвествующую логику достаточно прописать в методы  `groupJoin` и `groupLeave` в файле `SubStalker/CallbacksHandler.php`.
 Когда пользователь покинет сообщество, будет вызван метод `groupLeave`, а когда вступит в него, соответственно `groupJoin`.
 
+Для того, чтобы делать запросы к API ВКонтакте, в проекте есть клиент.
+Пример использования (здесь вызывается метод https://dev.vk.com/ru/method/users.get):
+```php
+use VK\Client\VKApiClient;
+...
+$client = new VKApiClient('5.131');
+$user = $client->users()->get(Config::ACCESS_TOKEN, ['user_id' => $user_id])[0];
+```
+
 groupEnjoy!
